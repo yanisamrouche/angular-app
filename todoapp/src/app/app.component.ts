@@ -1,6 +1,7 @@
 // src/app/app.component.ts
 
 import { Component } from '@angular/core';
+import { Tasks } from './types/task';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,7 @@ import { Component } from '@angular/core';
   styles: []
 })
 export class AppComponent {
-  tasks = [
+  tasks: Tasks = [
     { id: 1, text: "Aller faire des courses", done: false },
     { id: 2, text: "Faire à manger", done: true },
   ];
