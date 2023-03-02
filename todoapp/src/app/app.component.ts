@@ -13,6 +13,7 @@ import { Tasks } from './types/task';
           <app-todo-list 
             [tasks]="tasks"
           ></app-todo-list>
+          <app-task-form></app-task-form>
         </main>
     </div>
   `,
